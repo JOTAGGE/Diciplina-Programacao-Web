@@ -4,44 +4,53 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
 }
 
-nav {
+#botaodado{
+  font-size: 12px;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  width: 250px;
+  padding: 15px 32px;
+
+  position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-110px;
+		margin-top:-40px;
   
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
-}
 
-button {
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
+}
+#botaodado:hover{
+  background-color: #ebebeb;
+}
+#resultado{
+    position:absolute;
+		left:50%;
+		top:50%;
+		margin-left: 5px;
+		margin-top: 50px;
   
+    color: rgb(247, 238, 226);
+    background-color: black;
+    font-family: sans-serif;
+   
 }
 
-button[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
-}
-h1{
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
+#buttontheme{
+  font-size: 12px;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
 
 }
+#dark{
+display: inline;
+flex-direction: row;
+align-items: flex-start;
+}
+#light{
 
-h1[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
 }

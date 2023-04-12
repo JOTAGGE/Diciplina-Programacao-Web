@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <script src="script.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="/Dados1/script.js"></script>
+    <link href="/Dados1/styles.css" rel="stylesheet" type="text/css" />
     <title>Jogo do Dado</title>
   </head>
-  <body>
-    <nav>
+  <body id="buttontheme">
+      <button id="dark" onclick="darkmode()">Dark</button>      
+      <button id="light" onclick="lightmode()">White</button>
+
       <button id="botaodado" onclick="jogardado()">JOGAR DADO</button>
-    </nav>
-    <nav>
+    
       <h1 id="resultado"></h1>
-    </nav>
+    
   </body>
 </html>
