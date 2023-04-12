@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Jogo do Dado</title>
   </head>
   <body>
-    <button id = "botao" onclick="JogarDado">JOGAR DADO</button>
+    <nav>
+      <button id="botaodado" onclick="jogardado()">JOGAR DADO</button>
+    </nav>
+    <nav>
+      <h1 id="resultado"></h1>
+    </nav>
   </body>
 </html>
