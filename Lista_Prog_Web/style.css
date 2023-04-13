@@ -1,0 +1,38 @@
+html{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+h1{
+    color: whitesmoke;
+}
+ul{
+    color: whitesmoke;
+}
+table{
+
+    color: whitesmoke;
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+    /*text-align: center;*/
+}
+h4{
+    color: whitesmoke;
+}
+input{
+    border-radius: 5px;
+}
+button{
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 1px 1px;
+  cursor: pointer;
+}
